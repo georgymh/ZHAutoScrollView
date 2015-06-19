@@ -38,11 +38,12 @@ class ViewController: UIViewController {
             - The TextFields have to be manually added as Subviews of ZHAutoScrollView
             in order for the class to manage all the Automatic Scrolling functionalities. 
             
-            NOTE: To solve the ambiguous content width warning, at least one of the 
-            Subviews of the ScrollView need to have the necessary constraints in order for 
-            the ScrollView to know its maximum height and width. Some of the constraints 
-            that work are the Top, Leading, Trailing, and Bottom.
-        
+            NOTE: To solve the ambiguous content width warning, the scroll view needs all
+            positional constraints (with a value of 0) with respect to the super view. Also,
+            at least one of the Subviews of the ScrollView need to have the necessary 
+            constraints in order for the ScrollView to know its maximum height and width. 
+            The combination of constraints that worked for me are the Top, Leading, Trailing, 
+            and Bottom.
         */
         
         // Linking the textField's with the ZHAutoScrollView (Necessary).
