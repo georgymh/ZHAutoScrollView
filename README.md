@@ -8,7 +8,7 @@ ZHAutoScrollView is a smart UIScrollView which can:
 
 # Preview
 
-![demo](https://raw.githubusercontent.com/honghaoz/ZHAutoScrollView/master/Demo/demo.gif)
+![demo](https://raw.githubusercontent.com/honghaoz/AutoKeyboardScrollView/master/demo.gif)
 
 # Why?
 Form views are very common when developing iOS projects. When keyboard is showing up, the big keyboard is covering great areas, which will hide the active textField. 
